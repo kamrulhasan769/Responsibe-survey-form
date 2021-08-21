@@ -1,0 +1,105 @@
+body{
+   margin: 0;
+   padding: 0%;
+}
+.main{
+    background-image: url(pp.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    padding: 2%;
+    text-align: center;
+    
+    
+}
+#survey-form{
+
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(10px);
+    color: silver;
+    width: 600px;
+    margin : 0 auto
+
+}
+#title{
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(10px);
+    color: cyan;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#description{
+    color:khaki;
+    font-size: 25px;
+    font-weight: bold;  
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(10px);  
+
+}
+#name{
+    font-size: 30px;
+    padding-top: 5px;
+}
+#name-label{
+    height: 30px;
+    margin: 10px 10px;
+}
+#email{
+    font-size: 30px;
+    padding-top: 5px;
+}
+#email-label{
+    height: 30px;
+    margin-bottom: 10px;
+    margin: 10px 10px;
+}
+#number{
+    font-size: 30px;
+    padding-top: 5px;
+}
+#number-label{
+    height: 30px;
+    width: 100px;
+    margin: 10px 10px;
+}
+#dropdown{
+    font-size: 25px;
+}
+#dropdown-label{
+    height: 30px;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+#check-group {
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    }
+    
+.checkbox {
+      width: fit-content;
+      list-style: none;
+    }
+   #radio-btn{
+       font-size: 20px;
+       margin: 7px 7px;
+   } 
+   #favorite-feature{
+       font-size: 20px;
+       margin: 7px 7px;
+       padding: 5px;
+   }
+   #feature{
+    height: 30px;
+    width: 200px;
+    margin: 10px 10px;
+   }
+   #submit{
+       font-size: 20px;
+       color: gray;
+       background-color: lightgreen;
+       border-radius: 10px;
+       height: 40px;
+       width: 120px;
+   }

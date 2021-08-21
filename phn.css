@@ -1,0 +1,28 @@
+@media screen and (max-width: 700px) {
+.main{
+   height: 100%;
+    background-size: cover;
+    padding: 2%;
+    text-align: center;
+    background: rgba(0, 0, 0, .9);
+   
+    
+}
+#survey-form{
+color: silver;
+text-align: center;
+margin: 0 auto;
+
+}
+#title{
+    
+    color: cyan;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#description{
+    color:khaki;
+    font-size: 25px;
+    font-weight: bold;
+}
+}
